@@ -95,7 +95,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 class ViewModel: ObservableObject{
-    @Published var viewContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    var viewContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     @Published  var date = Date()
     @Published var note = ""
     @Published var editedNote = ""
