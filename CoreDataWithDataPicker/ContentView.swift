@@ -66,7 +66,7 @@ struct ContentView: View {
             }
             Spacer()
         }.padding()
-        .ignoresSafeArea()
+       
         
         
     }
